@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+// use structs instead of classes if the object is mostly simple and used mainly for storing data (since structs are public by default)
 struct student {
     std::string name;
     double gpa;
